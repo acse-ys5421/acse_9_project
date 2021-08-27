@@ -20,3 +20,11 @@ Since all codes are implemented using Colab, all training notebooks requires to 
 
 ## Report Results
 All results shown in the report can be accessed in the notebook pollution_dcgan_7d.ipynb
+
+## Reauirement
+All libraries in this project are using Colab's default settings:
+
+Python: 3.7.10   
+Numpy: 1.19.5    
+Tensorflow: 2.5.0   
+
