@@ -8,12 +8,12 @@ dataset folder: Include all datasets used in this project. Files that has .xlsx 
 
 _model folder: Contains all trained models for the pollution problem during the entire project. The best model (also used in the report) can be found in the following directory:
 
-GAN's Generator: './pollution_dcgan_7d_model/generator_10000_50'
-GAN's Discriminator : './pollution_dcgan_7d_model/discriminator_10000_50'
+GAN's Generator: './pollution_dcgan_7d_model/generator_10000_50'    
+GAN's Discriminator : './pollution_dcgan_7d_model/discriminator_10000_50'   
 
-AAE's Encoder: './pollution_aae_7d_model/encoder_1000_50'
-AAE's Decoder: './pollution_aae_7d_model/decoder_1000_50'
-AAE's Discriminator './pollution_aae_7d_model/discriminator_1000_50'
+AAE's Encoder: './pollution_aae_7d_model/encoder_1000_50'    
+AAE's Decoder: './pollution_aae_7d_model/decoder_1000_50'   
+AAE's Discriminator './pollution_aae_7d_model/discriminator_1000_50'   
 
 ## Notice before using
 Since all codes are implemented using Colab, all training notebooks requires to mount the drive first before reading in data/model. So in order to run the notebook, either change the directory of models/data or change the path inside the notebook. 
